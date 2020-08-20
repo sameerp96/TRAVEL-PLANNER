@@ -1,0 +1,36 @@
+.things_searchbar{
+    margin-top: 8%;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    border-radius: 11px;
+    padding-top: 30px;
+    padding-bottom: 120px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-repeat: no-repeat;
+    background-image: url(https://i.ibb.co/dBktzqk/people-celebrating-together-23-2148399973.jpg), linear-gradient(to right, 	#4cc9f7 , #e0f4fc);
+
+
+}
+
+.search_button{
+    width: 150px;
+    height: 50px;
+    margin-top: 3%;
+    position: absolute;
+    right: 40%;
+}
+
+.second_field{  
+    justify-content: space-evenly;   
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.first_field{
+    width: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 3%;
+}

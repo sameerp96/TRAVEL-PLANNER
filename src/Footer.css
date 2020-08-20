@@ -1,0 +1,19 @@
+.footer{
+    margin-top: 8%;
+    display: flex;
+    /* border-top: 1px solid black; */
+    padding-top: 2%;
+    /* background-color: #ebe9e9; */
+    background-image: linear-gradient(to top, #d1d0d0 , white);
+
+}
+
+.socialmedia_icons{
+    display: flex;
+    margin-left: 8%;
+    margin-right: auto;}
+
+.copyright_text{
+    text-align: end;
+    margin-right: 1.5%;
+}

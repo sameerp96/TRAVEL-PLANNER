@@ -1,0 +1,8 @@
+.navbar_below_header{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10%;
+    margin-right: 10%;
+    object-fit: contain;
+    margin-top: 2%;
+}

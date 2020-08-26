@@ -13,6 +13,7 @@ import PlaceIcon from '@material-ui/icons/Place';
 import Tooltip from '@material-ui/core/Tooltip';
 import IconButton from '@material-ui/core/IconButton';
 import { Form } from 'react-bootstrap';
+// import { Link, animateScroll as scroll } from "react-scroll";
 
 
 
@@ -28,6 +29,7 @@ function Header() {
 
         <div className="icon_box">
 
+        
         <div className="box1">
         <Tooltip title="Travel Tool">
         <IconButton aria-label="Travel Tool">
@@ -35,6 +37,7 @@ function Header() {
         </IconButton>
         </Tooltip>
         </div>
+        
 
         <div className="box2">
         <Tooltip title="Special Offers">
@@ -62,22 +65,26 @@ function Header() {
 
             
                 <div className="header__option">
-                <Link to="/mytrips" ><Button variant="outline-primary" size="lg" >My Trips</Button></Link>
+                <Link to="/mytrips" ><Button variant="secondary" size="lg" >My Trips</Button></Link>
                  </div>
             
 
             
                 <div className="header__option">
-                <Link to="/support"><Button variant="outline-primary" size="lg">24X7 Support</Button></Link>
+                <Link to="/support"><Button variant="secondary" size="lg">24X7 Support</Button></Link>
                 </div>
             
 
             <div className="header__option">
-                <DropdownButton id="dropdown-basic-button" title="My Account" size= "lg">
+                <DropdownButton id="dropdown-basic-button" variant="secondary" title="My Account" size= "lg">
                 <Link to="myprofile"><Dropdown.Item size="lg" href="/myprofile">My Profile</Dropdown.Item></Link>
                 <Link to="wishlist"><Dropdown.Item href="/wishlist">Wishlist</Dropdown.Item></Link>
                 <Link to="login"><Dropdown.Item href="/login">Login/Signup</Dropdown.Item></Link>
                 </DropdownButton>
+            </div>
+
+            <div className="header__option">
+                <Link to="/blog"><Button variant="secondary" size="lg">Blog</Button></Link>
             </div>
 
             <div className="country_select">

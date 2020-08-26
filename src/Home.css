@@ -62,8 +62,8 @@
 }
 
 .search_bar{
-    background-image: url(https://i.ibb.co/dmvwSgt/Untitled.jpg); 
-    margin-top: 4%;
+    background-image: url(https://i.ibb.co/ryHR4nh/bar11.jpg); 
+    margin-top: 2%;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 4%;
@@ -119,4 +119,23 @@
     font-family: Helvetica, sans-serif;
 
 
+}
+
+.travel_tool_card_border{
+    border: 0.1px solid black;
+}
+
+/* .more_button{
+    margin-right: 40%;
+} */
+
+.card_div{
+    display: flex;
+}
+.card_text{
+    margin-top: 1.5%;
+}
+
+.more_btn_icon_box{
+    justify-content: space-evenly;
 }

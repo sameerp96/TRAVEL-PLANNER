@@ -2,6 +2,8 @@ import React from 'react'
 import "./Thingstodo.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Form , Col, Row, Button } from 'react-bootstrap';
+import Footer from './Footer';
+import ThingsCards from "./ThingsCards";
 
 
 function Thingstodo() {
@@ -11,7 +13,7 @@ function Thingstodo() {
             <div className="things_searchbar1">
 
             <Form>
-                <div className="first_field">
+                <div className="first_field1">
                 <Col>
                 <Form.Control  as="select">
                          <option value="" selected disabled> Where</option>
@@ -23,7 +25,7 @@ function Thingstodo() {
                 </Form.Control>
                 </Col>
                 </div>
-            <div className="second_field">
+            <div className="second_field1">
             <Row>
                 <Col>
                 <Form.Control as="select">
@@ -72,8 +74,8 @@ function Thingstodo() {
             </div>
             </Form>
 
-            <div className="search_button">
-            <Button variant="outline-secondary" className="search_button" onClick >Search</Button>
+            <div className="search_button1">
+            <Button variant="outline-secondary"  className="search_button"  >Search</Button>
             </div>   
 
             </div>
@@ -81,6 +83,14 @@ function Thingstodo() {
             <div>
             <h2 className="heading1"> Things to do </h2>
             <h6 className="line">_______________________________________________________________________________________________________________________________________________________________________________________________</h6>
+            </div>
+
+            <div id="sbtn">
+                    <ThingsCards/>
+            </div>
+
+            <div>
+                    <Footer/>
             </div>
             </div>
 

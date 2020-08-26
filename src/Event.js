@@ -2,14 +2,17 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Form , Col, Row, Button } from 'react-bootstrap';
 import "./Event.css";
+import Footer from './Footer';
+import EventCards from "./EventCards";
+
 
 function Event() {
     return (
         <div className="events">
-            <div className="things_searchbar">
+            <div className="event_searchbar2">
 
     <Form>
-    <div className="first_field">
+    <div className="first_field2">
     <Col>
     <Form.Control  as="select">
              <option value="" selected disabled> Where</option>
@@ -21,12 +24,12 @@ function Event() {
     </Form.Control>
     </Col>
     </div>
-<div className="second_field">
+<div className="second_field2">
 <Row>
     <Col>
     <Form.Control as="select">
             <option value="" selected disabled>Type</option>
-            <option>Adventurous</option>
+            <option>Type1</option>
             <option>Type 2 </option>
             <option>Type 3 </option>
             <option>Type 4</option>
@@ -70,7 +73,7 @@ function Event() {
     </div>
     </Form>
 
-    <div className="search_button">
+    <div className="search_button2">
     <Button variant="outline-secondary" className="search_button" onClick >Search</Button>
     </div>   
 
@@ -79,12 +82,17 @@ function Event() {
     <div>
     <h2 className="heading1"> Events </h2>
     <h6 className="line">_______________________________________________________________________________________________________________________________________________________________________________________________</h6>
+    </div>
 
+    <div>
+            <EventCards/>
+    </div>
 
-
-
-        </div>
-        </div>
+    <div>
+            <Footer/>
+    </div>
+    
+    </div>
     )
 }
 

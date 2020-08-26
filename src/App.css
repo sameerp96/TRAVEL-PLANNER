@@ -1,3 +1,53 @@
+
+
+
 *{
   margin: 0;
+}
+
+.upper_background_home{
+padding-bottom: 2%;
+}
+
+.upper_background_things{
+  padding-bottom: 2%;
+  background-position:bottom;
+
+
+}
+
+.upper_background_holidays
+{
+  padding-bottom: 2%;
+  background-position:bottom;
+
+}
+
+.upper_background_events{
+  padding-bottom: 2%;
+  background-position:bottom;
+
+}
+
+.upper_background_flights{
+  padding-bottom: 2%;
+  background-position:bottom;
+  
+}
+
+.upper_background_hotel{
+  padding-bottom: 2%;
+  background-position:bottom;
+  opacity: 0.9;
+
+}
+
+.upper_background_restaurants{
+  padding-bottom: 2%;
+  background-position:bottom;
+}
+
+.login_background{
+  background-repeat: no-repeat;
+  background-size: contain;
 }

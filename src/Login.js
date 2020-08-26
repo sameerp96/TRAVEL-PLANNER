@@ -3,14 +3,15 @@ import { Link, useHistory } from "react-router-dom";
 import "./Login.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Form, Button } from 'react-bootstrap';
+import loginback from "./images/loginback1.jpg";
 
 
 function Login() {
 
     return (
-        <div>
+        <div className="login_page" style={{backgroundImage: "url(" + loginback + ")"}}>
             <Link to="/">
-            <img className="logo" alt='logo' src="https://sameerp96.github.io/images/logo11.PNG" />
+            <img className="logo" alt='logo' src="https://i.ibb.co/tCTNZLz/logo.jpg" />
             </Link>
 
             <div className="login_form">
@@ -32,13 +33,13 @@ function Login() {
                 </Form.Group>
 
                 <div className="button_box">
-                <Button className="submit_btn" variant="primary" type="submit">
+                <Link to="/"><Button className="submit_btn" variant="primary" type="submit">
                     Submit
-                </Button>
+                </Button></Link>
 
-                <Button className="signup_btn" variant="secondary" type="submit">
+                <Link to='/'><Button className="signup_btn" variant="secondary" type="submit">
                     Signup
-                </Button>
+                </Button></Link>
                 </div>
 
                 </Form>

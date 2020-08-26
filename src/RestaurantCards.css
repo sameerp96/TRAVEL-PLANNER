@@ -1,0 +1,4 @@
+.restaurant_cards{
+    display: flex;
+    justify-content: space-evenly;
+}

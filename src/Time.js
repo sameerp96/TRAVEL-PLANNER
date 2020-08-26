@@ -10,7 +10,7 @@ function Time() {
         <div className='clock_box'>    
         {/* <Image className="clock_image" src="https://i.ibb.co/dc02SJJ/623867-clock-256x256.png"/> */}
         <div>
-            <Clock format={'HH:mm:ss'} ticking={true} timezone={' '}/>
+            <Clock format={'HH:mm:ss'} ticking={true} timezone={''}/>
             <h5 className="title">Local</h5>
         </div>
         

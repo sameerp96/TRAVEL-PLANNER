@@ -1,4 +1,4 @@
-Website URL https://travel-planner-27940.web.app/ (It is a web application so desktop view recommended)
+Website URL https://travel-planner-27940.web.app/ (desktop view only)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

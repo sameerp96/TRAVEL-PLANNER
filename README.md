@@ -1,7 +1,3 @@
-
-
-Link to the project report - https://drive.google.com/file/d/139O0GYK5YCXzccru5yX2yWxPPGSV9_nZ/view?usp=sharing
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

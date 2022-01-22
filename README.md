@@ -1,4 +1,4 @@
-Website URL https://travel-planner-27940.web.app/ (desktop view only)
+
 
 Link to the project report - https://drive.google.com/file/d/139O0GYK5YCXzccru5yX2yWxPPGSV9_nZ/view?usp=sharing
 
